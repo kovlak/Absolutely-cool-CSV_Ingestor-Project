@@ -1,5 +1,5 @@
 name,age,city
 John,30,New York
-Maria,28,London
-Pedro,25,Madrid
+Maria,28,"London,UK"
+Pedro,25,'Madrid,Spain'
 Sophia,32,Paris

@@ -1,0 +1,432 @@
+
+------------------------
+Ejecutando script_csv.py con flags:  y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags:  y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags:  y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: 
+------------------------
+Traceback (most recent call last):
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
+    csv_objects = read_csv_file(
+                  ^^^^^^^^^^^^^^
+  File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
