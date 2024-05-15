@@ -144,7 +144,7 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: ''
 
 ------------------------
-Ejecutando script_csv.py con flags:  y archivo CSV: 
+Ejecutando script_csv.py con flags:  y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -153,10 +153,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: --header y archivo CSV: 
+Ejecutando script_csv.py con flags: --header y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -165,10 +165,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: --fldata y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -177,10 +177,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -189,10 +189,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ';' y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ';' y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -201,10 +201,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ',' y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ',' y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -213,10 +213,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -225,10 +225,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -237,10 +237,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -249,10 +249,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -261,10 +261,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -273,10 +273,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: /home/usuario/datos.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -285,10 +285,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/git/Git/home/usuario/datos.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags:  y archivo CSV: 
+Ejecutando script_csv.py con flags:  y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -297,10 +297,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: --header y archivo CSV: 
+Ejecutando script_csv.py con flags: --header y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -309,10 +309,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: --fldata y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -321,10 +321,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -333,10 +333,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ';' y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ';' y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -345,10 +345,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ',' y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ',' y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -357,10 +357,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -369,10 +369,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -381,10 +381,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -393,10 +393,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -405,10 +405,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -417,10 +417,10 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
 
 ------------------------
-Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: 
+Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv
 ------------------------
 Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 86, in <module>
@@ -429,4 +429,355 @@ Traceback (most recent call last):
   File "D:\Absolutely_cool_CSV_Ingestor_Project\Absolutely-cool-CSV_Ingestor-Project\script_csv.py", line 31, in read_csv_file
     with open(file_path, 'r') as file:
          ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
+FileNotFoundError: [Errno 2] No such file or directory: 'D:Absolutely_cool_CSV_Ingestor_ProjectAbsolutely-cool-CSV_Ingestor-Projectfunctional.csv'
+
+------------------------
+Ejecutando script_csv.py con flags:  y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name: John
+age: 30
+city: New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name: Maria
+age: 28
+city: London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name: Pedro
+age: 25
+city: Madrid,Spain
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: --header y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: John
+h2: 30
+h3: New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: Maria
+h2: 28
+h3: London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Pedro
+h2: 25
+h3: Madrid,Spain
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: --fldata y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name: name
+age: age
+city: city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name: John
+age: 30
+city: New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name: Maria
+age: 28
+city: London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: name
+h2: age
+h3: city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: John
+h2: 30
+h3: New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Maria
+h2: 28
+h3: London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ';' y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name,age,city: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name,age,city: Maria,28,London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name,age,city: Pedro,25,Madrid,Spain
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ',' y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name,age,city: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name,age,city: Maria,28,London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name,age,city: Pedro,25,Madrid,Spain
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: Maria,28,London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Pedro,25,Madrid,Spain
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: Maria,28,London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Pedro,25,Madrid,Spain
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name,age,city: name,age,city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name,age,city: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name,age,city: Maria,28,London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name,age,city: name,age,city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name,age,city: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name,age,city: Maria,28,London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: name,age,city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Maria,28,London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: name,age,city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Maria,28,London,UK
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags:  y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name: John
+age: 30
+city: New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name: Maria
+age: 
+city: London
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: --header y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: John
+h2: 30
+h3: New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: Maria
+h2: 
+h3: London
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: --fldata y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name: name
+age: age
+city: city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name: John
+age: 30
+city: New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name: Maria
+age: 
+city: London
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: --header --fldata y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: name
+h2: age
+h3: city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: John
+h2: 30
+h3: New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Maria
+h2: 
+h3: London
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ';' y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name,age,city: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name,age,city: Maria,,London
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ',' y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name,age,city: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name,age,city: Maria,,London
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: Maria,,London
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: Maria,,London
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --fldata y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name,age,city: name,age,city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name,age,city: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name,age,city: Maria,,London
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --fldata y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+name,age,city: name,age,city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+name,age,city: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+name,age,city: Maria,,London
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ';' --header --fldata y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: name,age,city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Maria,,London
+
+Ingrese el índice del objeto a buscar (q para salir): 
+------------------------
+Ejecutando script_csv.py con flags: -d ',' --header --fldata y archivo CSV: ./FILES/non_functional.csv
+------------------------
+Ingrese el índice del objeto a buscar (q para salir): Objeto 0:
+h1: name,age,city
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 1:
+h1: John,30,New York
+
+Ingrese el índice del objeto a buscar (q para salir): Objeto 2:
+h1: Maria,,London
+
+Ingrese el índice del objeto a buscar (q para salir): 
