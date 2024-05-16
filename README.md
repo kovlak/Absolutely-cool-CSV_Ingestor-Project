@@ -24,4 +24,6 @@ ejemplo:
 un ejemplo práctico de ejecución sería:
 `$bash script_testing.sh --file_name=script_csv.py --csv-file=./FILES/src/non_functional.csv`
 
+![Animation](https://github.com/kovlak/Absolutely-cool-CSV_Ingestor-Project/assets/20075392/f02e1245-d219-4a6f-9bf6-eb48e34a8451)
 ##
+in development ....
