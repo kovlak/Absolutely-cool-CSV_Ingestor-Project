@@ -1,0 +1,6 @@
+h1,h2,h3
+1,John,30,New York
+2,Maria,28,"London,UK"
+3,Pedro,25,"Madrid,Spain"
+4,Sophia,32,Paris
+0,name,age,city

@@ -1,4 +1,5 @@
 import argparse
+import csv
 
 
 def random_header(index):
@@ -16,7 +17,8 @@ parser.add_argument('--delimiter', '-d', type=str, default=',',
                     help='Delimiter used in the CSV file (default: ,) eg: python script_csv.py --csv-file /ruta/al/archivo.csv --delimiter \';\''
                     )
 parser.add_argument('--usage', action='help', help="""The index of the record starts at 0, please enter a number to search for the entered index. If the script is executed without flags, it will assume the first line as the header. If --fldata is used, it will use the first line as the header but retain the row as data, meaning it will be duplicated in the header.""")
-
+parser.add_argument('--output', '-o', type=str, default=None,
+                    help='Nombre del archivo de salida CSV (por ejemplo, --output salida.csv)')
 args = parser.parse_args()
 
 
@@ -26,7 +28,7 @@ class CSVObject:
             setattr(self, key, value)
 
 
-def read_csv_file(file_path, random_headers, fldata, delimiter):
+def read_csv_file(file_path, random_headers, fldata, delimiter, output_file=None):
     objects = []
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -46,6 +48,9 @@ def read_csv_file(file_path, random_headers, fldata, delimiter):
                     for i in range(min(len(headers), len(values)))}
             obj = CSVObject(**data)
             objects.append(obj)
+
+        if output_file:
+            save_to_csv(output_file, headers, objects)
 
     return objects
 
@@ -78,6 +83,25 @@ def parse_line(line, delimiter):
         values.append(current_value)
     return [strip_quotes(value) for value in values]
 
+# función para output objetos a csv
+
+
+def save_to_csv(output_file, headers, objects):
+    output_path = f"./LOGS/{output_file}"
+    with open(output_path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(headers)
+        for obj in objects:
+            row = [getattr(obj, header) for header in headers]
+            writer.writerow(row)
+
+
+def write_to_csv(output_file, headers, row):
+    output_path = f"./LOGS/{output_file}"
+    with open(output_path, 'a', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(row)
+
 
 if __name__ == '__main__':
     args = parser.parse_args()
@@ -85,6 +109,10 @@ if __name__ == '__main__':
     csv_file_path = args.csv_file
     csv_objects = read_csv_file(
         csv_file_path, args.header, args.fldata, args.delimiter)
+
+    if args.output:
+        headers = list(csv_objects[0].__dict__.keys())
+        write_to_csv(args.output, headers, headers)  # Escribir encabezados
 
     while True:
         search_index = input(
@@ -98,8 +126,15 @@ if __name__ == '__main__':
             else:
                 obj = csv_objects[index]
                 print(f"Objeto {index}:")
+                output_row = [str(index)]  # Fila de salida con el índice
                 for key, value in obj.__dict__.items():
                     print(f"{key}: {value}")
+                    # Agregar valores a la fila de salida
+                    output_row.append(value)
                 print()
+
+                if args.output:
+                    # Escribir fila en el archivo CSV
+                    write_to_csv(args.output, headers, output_row)
         except ValueError:
             print("Entrada inválida. Por favor, ingrese un número o 'q' para salir.")
