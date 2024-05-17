@@ -19,6 +19,8 @@ parser.add_argument('--delimiter', '-d', type=str, default=',',
 parser.add_argument('--usage', action='help', help="""The index of the record starts at 0, please enter a number to search for the entered index. If the script is executed without flags, it will assume the first line as the header. If --fldata is used, it will use the first line as the header but retain the row as data, meaning it will be duplicated in the header.""")
 parser.add_argument('--output', '-o', type=str, default=None,
                     help='Nombre del archivo de salida CSV (por ejemplo, --output salida.csv)')
+parser.add_argument('--quotes', '-q', type=str, choices=['single', 'double'], default=None,
+                    help='Tipo de comillas a utilizar ("single" o "double")')
 args = parser.parse_args()
 
 
@@ -28,7 +30,7 @@ class CSVObject:
             setattr(self, key, value)
 
 
-def read_csv_file(file_path, random_headers, fldata, delimiter, output_file=None):
+def read_csv_file(file_path, random_headers, fldata, delimiter, output_file=None, quote_type=None):
     objects = []
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -38,12 +40,12 @@ def read_csv_file(file_path, random_headers, fldata, delimiter, output_file=None
                 len(lines[0].strip().split(delimiter)))]
             data_lines = lines if fldata else lines[1:]
         else:
-            headers = [strip_quotes(field)
+            headers = [strip_quotes(field, quote_type)
                        for field in lines[0].strip().split(delimiter)]
             data_lines = lines[1:] if not fldata else lines
 
         for line in data_lines:
-            values = parse_line(line.strip(), delimiter)
+            values = parse_line(line.strip(), delimiter, quote_type)
             data = {headers[i]: values[i]
                     for i in range(min(len(headers), len(values)))}
             obj = CSVObject(**data)
@@ -55,16 +57,17 @@ def read_csv_file(file_path, random_headers, fldata, delimiter, output_file=None
     return objects
 
 
-def strip_quotes(value):
-    if value.startswith("'") and value.endswith("'"):
-        return value[1:-1]
-    elif value.startswith('"') and value.endswith('"'):
-        return value[1:-1]
-    else:
-        return value
+def strip_quotes(value, quote_type):
+    if quote_type == 'single':
+        if value.startswith("'") and value.endswith("'"):
+            return value[1:-1]
+    elif quote_type == 'double':
+        if value.startswith('"') and value.endswith('"'):
+            return value[1:-1]
+    return value
 
 
-def parse_line(line, delimiter):
+def parse_line(line, delimiter, quote_type):
     values = []
     current_value = ""
     quote_char = None
@@ -81,8 +84,7 @@ def parse_line(line, delimiter):
             current_value += char
     if current_value:
         values.append(current_value)
-    return [strip_quotes(value) for value in values]
-
+    return [strip_quotes(value, quote_type) for value in values]
 # función para output objetos a csv
 
 
@@ -108,7 +110,7 @@ if __name__ == '__main__':
 
     csv_file_path = args.csv_file
     csv_objects = read_csv_file(
-        csv_file_path, args.header, args.fldata, args.delimiter)
+        csv_file_path, args.header, args.fldata, args.delimiter, args.output, args.quotes)
 
     if args.output:
         headers = list(csv_objects[0].__dict__.keys())
